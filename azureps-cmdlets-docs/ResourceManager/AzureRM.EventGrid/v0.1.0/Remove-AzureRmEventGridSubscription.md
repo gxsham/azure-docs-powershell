@@ -1,7 +1,7 @@
 ---
 external help file: Microsoft.Azure.Commands.EventGrid.dll-Help.xml
 Module Name: AzureRM.EventGrid
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -78,7 +78,7 @@ Name of the event subscription that needs to be removed.
 ```yaml
 Type: String
 Parameter Sets: EventSubscriptionNameParameterSet, ResourceIdEventSubscriptionParameterSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: EventSubscriptionInputObjectSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -105,7 +105,7 @@ EventGrid EventSubscription object.
 ```yaml
 Type: PSTopic
 Parameter Sets: EventSubscriptionInputObjectSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -120,7 +120,7 @@ Returns the status of the Remove operation. By default, this cmdlet does not gen
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -150,7 +150,7 @@ Identifier of the resource whose event subscription needs to be removed.
 ```yaml
 Type: String
 Parameter Sets: ResourceIdEventSubscriptionParameterSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -165,7 +165,7 @@ Event Grid Topic Name.
 ```yaml
 Type: String
 Parameter Sets: EventSubscriptionNameParameterSet
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -211,7 +211,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### System.String
-Microsoft.Azure.Commands.EventGrid.Models.PSEventSubscription
+### Microsoft.Azure.Commands.EventGrid.Models.PSEventSubscription
 
 ## OUTPUTS
 
@@ -220,4 +220,3 @@ Microsoft.Azure.Commands.EventGrid.Models.PSEventSubscription
 ## NOTES
 
 ## RELATED LINKS
-

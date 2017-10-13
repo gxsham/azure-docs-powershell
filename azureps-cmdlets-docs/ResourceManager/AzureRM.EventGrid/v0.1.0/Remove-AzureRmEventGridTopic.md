@@ -1,7 +1,7 @@
 ---
 external help file: Microsoft.Azure.Commands.EventGrid.dll-Help.xml
 Module Name: AzureRM.EventGrid
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -55,7 +55,7 @@ EventGrid Topic object.
 ```yaml
 Type: PSTopic
 Parameter Sets: TopicInputObjectParameterSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -85,7 +85,7 @@ Returns the status of the Remove operation. By default, this cmdlet does not gen
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -115,7 +115,7 @@ EventGrid Topic ResourceID.
 ```yaml
 Type: String
 Parameter Sets: ResourceIdEventSubscriptionParameterSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -161,7 +161,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### System.String
-Microsoft.Azure.Commands.EventGrid.Models.PSTopic
+### Microsoft.Azure.Commands.EventGrid.Models.PSTopic
 
 ## OUTPUTS
 
@@ -170,4 +170,3 @@ Microsoft.Azure.Commands.EventGrid.Models.PSTopic
 ## NOTES
 
 ## RELATED LINKS
-

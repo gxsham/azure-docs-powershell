@@ -1,7 +1,7 @@
 ---
 external help file: Microsoft.Azure.Commands.EventGrid.dll-Help.xml
 Module Name: AzureRM.EventGrid
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -53,7 +53,7 @@ If specified, the response will include the event types supported by a topic typ
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -68,7 +68,7 @@ EventGrid Topic Type Name.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 0
@@ -83,7 +83,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### System.String
-System.Management.Automation.SwitchParameter
+### System.Management.Automation.SwitchParameter
 
 ## OUTPUTS
 
@@ -93,4 +93,3 @@ Microsoft.Azure.Commands.EventGrid.Models.PSTopicTypeInfo
 ## NOTES
 
 ## RELATED LINKS
-

@@ -1,7 +1,7 @@
 ---
 external help file: Microsoft.Azure.Commands.EventGrid.dll-Help.xml
 Module Name: AzureRM.EventGrid
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -45,7 +45,7 @@ New-AzureRmEventGridSubscription [-EventSubscriptionName] <String> [-Endpoint] <
 ```
 
 ## DESCRIPTION
-Create a new event subscription to an Azure Event Grid topic, a supported Azure resource, an Azure subscription or Resource Group.
+Creates a new event subscription to an Azure Event Grid topic, a supported Azure resource, an Azure subscription or Resource Group.
 To create an event subscription to the currently selected Azure subscription, specify the event subscription name and the destination endpoint.
 To create an event subscription to a resource group, specify the resource group name in addition to the event subscription name and the destination endpoint.
 To create an event subscription to an Azure Event Grid topic, specify the topic name as well.
@@ -106,7 +106,7 @@ This can be a webhook URL or the Azure resource ID of an EventHub.
 ```yaml
 Type: String
 Parameter Sets: CustomTopicEventSubscriptionParameterSet, ResourceIdEventSubscriptionParameterSet, ResourceGroupNameParameterSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -118,7 +118,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: EventSubscriptionInputObjectSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -134,7 +134,7 @@ This can be webhook or eventhub
 ```yaml
 Type: String
 Parameter Sets: CustomTopicEventSubscriptionParameterSet, ResourceIdEventSubscriptionParameterSet, ResourceGroupNameParameterSet
-Aliases: 
+Aliases:
 Accepted values: webhook, eventhub
 
 Required: False
@@ -147,7 +147,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: EventSubscriptionInputObjectSet
-Aliases: 
+Aliases:
 Accepted values: webhook, eventhub
 
 Required: False
@@ -163,7 +163,7 @@ The name of the event subscription
 ```yaml
 Type: String
 Parameter Sets: CustomTopicEventSubscriptionParameterSet, ResourceIdEventSubscriptionParameterSet, ResourceGroupNameParameterSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -175,7 +175,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: EventSubscriptionInputObjectSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -190,7 +190,7 @@ Filter that specifies a list of event types to include.If not specified, all eve
 ```yaml
 Type: String[]
 Parameter Sets: CustomTopicEventSubscriptionParameterSet, ResourceIdEventSubscriptionParameterSet, ResourceGroupNameParameterSet
-Aliases: 
+Aliases:
 
 Required: False
 Position: 7
@@ -202,7 +202,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String[]
 Parameter Sets: EventSubscriptionInputObjectSet
-Aliases: 
+Aliases:
 
 Required: False
 Position: 7
@@ -217,7 +217,7 @@ EventGrid Topic object.
 ```yaml
 Type: PSTopic
 Parameter Sets: EventSubscriptionInputObjectSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -232,7 +232,7 @@ Labels for the event subscription
 ```yaml
 Type: String[]
 Parameter Sets: CustomTopicEventSubscriptionParameterSet, ResourceIdEventSubscriptionParameterSet, ResourceGroupNameParameterSet
-Aliases: 
+Aliases:
 
 Required: False
 Position: 8
@@ -244,7 +244,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String[]
 Parameter Sets: EventSubscriptionInputObjectSet
-Aliases: 
+Aliases:
 
 Required: False
 Position: 8
@@ -286,7 +286,7 @@ The identifier of the resource to which the event subscription should be created
 ```yaml
 Type: String
 Parameter Sets: ResourceIdEventSubscriptionParameterSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -302,7 +302,7 @@ If not specified, events with all subject prefixes will be included.
 ```yaml
 Type: String
 Parameter Sets: CustomTopicEventSubscriptionParameterSet, ResourceIdEventSubscriptionParameterSet, ResourceGroupNameParameterSet
-Aliases: 
+Aliases:
 
 Required: False
 Position: 5
@@ -314,7 +314,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: EventSubscriptionInputObjectSet
-Aliases: 
+Aliases:
 
 Required: False
 Position: 5
@@ -330,7 +330,7 @@ If not specified, subject will be compared in a case insensitive manner.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -346,7 +346,7 @@ If not specified, events with all subject suffixes will be included.
 ```yaml
 Type: String
 Parameter Sets: CustomTopicEventSubscriptionParameterSet, ResourceIdEventSubscriptionParameterSet, ResourceGroupNameParameterSet
-Aliases: 
+Aliases:
 
 Required: False
 Position: 6
@@ -358,7 +358,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: EventSubscriptionInputObjectSet
-Aliases: 
+Aliases:
 
 Required: False
 Position: 6
@@ -373,7 +373,7 @@ The name of the topic to which the event subscription should be created.
 ```yaml
 Type: String
 Parameter Sets: CustomTopicEventSubscriptionParameterSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: 3
@@ -419,9 +419,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### System.String
-Microsoft.Azure.Commands.EventGrid.Models.PSTopic
-System.Management.Automation.SwitchParameter
-System.String[]
+### Microsoft.Azure.Commands.EventGrid.Models.PSTopic
+### System.Management.Automation.SwitchParameter
+### System.String[]
 
 ## OUTPUTS
 
@@ -430,4 +430,3 @@ System.String[]
 ## NOTES
 
 ## RELATED LINKS
-
