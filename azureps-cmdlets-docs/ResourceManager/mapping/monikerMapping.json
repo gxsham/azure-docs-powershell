@@ -81,11 +81,9 @@
                 "_displayName": "AzureRM.MachineLearning",
                 "_version": "v0.15.7"
             },
-            },
             "AzureRM.MachineLearningCompute": {
               "_displayName": "AzureRM.MachineLearningCompute",
               "_version": "v0.1.0"
-            },
             },
             "AzureRM.MarketplaceOrdering": {
             "_displayName": "AzureRM.MarketplaceOrdering",
