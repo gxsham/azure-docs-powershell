@@ -1,8 +1,8 @@
 ---
-external help file: Microsoft.Azure.Commands.ServerManagement.dll-Help.xml
-Module Name: AzureRM.ServerManagement
+external_help_file: Microsoft.Azure.Commands.ServerManagement.dll-Help.xml
+Module_Name: AzureRM.ServerManagement
 ms.assetid: CEA14FAB-4B57-48F2-938C-E3AD4AAAE753
-online version: https://docs.microsoft.com/en-us/powershell/module/azurerm.servermanagement/new-azurermservermanagementnode
+online_version: https://docs.microsoft.com/en-us/powershell/module/azurerm.servermanagement/new-azurermservermanagementnode
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/ServerManagement/Commands.ServerManagement/help/New-AzureRmServerManagementNode.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/ServerManagement/Commands.ServerManagement/help/New-AzureRmServerManagementNode.md
